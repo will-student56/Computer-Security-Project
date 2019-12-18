@@ -270,7 +270,7 @@ if __name__ == "__main__":
                 else:
                     print("{friend}not added to your friends list".format(new_friend))
             else:
-                "{friend} does not exist in the database".format(new_friend))
+                print("{friend} does not exist in the database".format(new_friend))
         else:
             break
     #key = RSA.generate(2048)
